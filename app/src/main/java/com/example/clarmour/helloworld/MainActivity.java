@@ -31,7 +31,7 @@ private int counter = 0;
     }
 
     public void Reset(View view) {
-        counter = 0;
+        counter = 10;
         TextView countview = (TextView) findViewById(R.id.countText);
         countview.setText(Integer.toString(counter));
     }
